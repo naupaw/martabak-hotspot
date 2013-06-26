@@ -13,6 +13,9 @@ di bagian Network > DHCP and DNS
 
 pada bagian Static Leases isi IP yang anda khendaki dan mac address device anda, dengan tujuan Device tersebut adalah administrator tetap
 
+![](https://raw.github.com/pedox/martabak-hotspot/master/img_doc/static-lease.png)
+
+
 -------------------------------------------------------
 
 Pertama anda harus menginstall beberapa paket seperti
@@ -66,6 +69,8 @@ setelah itu restart lighttpd
 	# /etc/init.d/lighttpd reload
 
 kembali pada Luci Interface menuju ke Custom Firewall dengan mengklik Network > Firewall > Custom Rules
+
+![](https://raw.github.com/pedox/martabak-hotspot/master/img_doc/custom-rule.png)
 
 lalu tambahkan kode berikut. 
 
@@ -123,6 +128,10 @@ Cron task nya bisa diubah sesuai keiningan kok jika keberatan.
 ### Selesai 
 
 Hotspot sudah diapplikasikan.
+
+![](https://raw.github.com/pedox/martabak-hotspot/master/img_doc/hotspotlogin.png)
+
+![](https://raw.github.com/pedox/martabak-hotspot/master/img_doc/hotspotlogin-2.png)
 
 # Perhatian
 
